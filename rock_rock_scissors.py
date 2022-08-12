@@ -11,11 +11,11 @@ while True:
     if player1.lower() == "i quit":
         print("\nFinal score: \nYour Score: " + str(player1_score) + " Computer's Score: " + str(comp1_score))
         if player1_score > comp1_score:
-            print("\n\nYou've won the game! You are the supreme being!")
+            print("\n\nYou've won the game! You are the spiciest!")
         elif player1_score < comp1_score:
             print("\n\nComputer won! Computers will rule the world!!")
         else: 
-            print("\n\nIt's a tie!")
+            print("\n\nIt's a tie! Perhaps humans and computers can coexist in harmony!")
         print("\n\nThank You for playing!\n") 
         break
 
